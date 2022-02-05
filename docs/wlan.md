@@ -17,7 +17,8 @@ sudo iwconfig
 ## 啟動無線網路
 
 ```
-sudo ifconfig wlan0
+sudo ifconfig wlan0 up            // 啟動網路介面 wlan0
+sudo ifconfig wlan0 down          // 關閉網路介面 wlan0
 ```
 > 再實務上碰到 [SIOCSIFFLAGS: Operation not possible due to RF-kill](https://askubuntu.com/questions/62166) 錯誤時，多數表示網卡並沒正常啟動，可以據文獻說明操作設定後再啟動網卡
 
@@ -103,4 +104,6 @@ sudo sed -i 's/REGDOMAIN=/REGDOMAIN=TW/' /etc/default/crda
 
 + [How to Configure Wireless on Any Linux Desktop](https://www.linux.com/training-tutorials/how-configure-wireless-any-linux-desktop/)
 + [Ubuntu 網路設定 - iwlist, iwconfig 無線上網指令](http://note.drx.tw/2010/12/network-wireless.html)
-+ [手動向DHCP Server取得IP－ dhclient](https://david50.pixnet.net/blog/post/27179542) 
++ [手動向DHCP Server取得IP－ dhclient](https://david50.pixnet.net/blog/post/27179542)
++ [Can you explain how to understand what the 'iwconfig' command displays in Ubuntu-9.04?](https://superuser.com/questions/42460)
+    - [您能解釋一下如何理解在Ubuntu-9.04中’iwconfig’命令顯示什麽嗎？](https://ubuntuqa.com/zh-tw/article/8959.html)
