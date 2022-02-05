@@ -21,7 +21,7 @@
 
 嵌入式系統安裝的作業系統為 Linux，開發者可以透過印象檔燒入至 microSD 中，並安裝至嵌入式設備。
 
-+ [Installing the Operating System](https://github.com/raspberrypi/documentation/blob/develop/documentation/asciidoc/computers/getting-started/installing-from-an-image.adoc]
++ [Installing the Operating System](https://github.com/raspberrypi/documentation/blob/develop/documentation/asciidoc/computers/getting-started/installing-from-an-image.adoc)
     - 自 [Raspberry Pi OS](https://www.raspberrypi.com/software/) 下載對應作業系統 ( Windows、MacOS、Linux ) 的 Raspberry Pi Imager
     - 連結 SD 卡讀取器並放置 SD 卡在其中
     - 開啟 Raspberry Pi Imager 並自清單中選擇需要的作業系統
