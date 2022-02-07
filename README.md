@@ -39,6 +39,11 @@
 
 + [無線網路裝置設定](./docs/wlan.md)
 
+### 參考
+
++ [Raspberry Pi Foundation](https://www.raspberrypi.org/)
+    - [Raspberry Pi 台灣樹莓派](https://www.raspberrypi.com.tw/)
+
 ## NVIDIA Jetson NANO
 
 ### 裝置規格
@@ -52,7 +57,7 @@
 + Input：USB keyboard、USB Mouse、USB Wireless networking adapter
 + Ouput：HDMI 2.0、DisplayPort
 
-## 參考
+### 作業系統
 
-+ [Raspberry Pi Foundation](https://www.raspberrypi.org/)
-    - [Raspberry Pi 台灣樹莓派](https://www.raspberrypi.com.tw/)
++ [Write Image to the microSD Card](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write)
+    - [Install Jetson Nano OS with Raspberry Pi Imager](https://www.zagrosrobotics.com/shop/custom.aspx?recid=102)
